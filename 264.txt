@@ -1,0 +1,9 @@
+#if exist .\KEY.bin del /q .\KEY.bin
+#oa3tool.exe /assemble /configfile=.\OA3.cfg
+AFUWINx64.EXE /Aoa3.bin
+#timeout /t 6
+#oa3tool.exe /Validate >>Key.log
+#oa3tool.exe /report /configfile:.\OA3.cfg /logtrace=OA3.log
+#timeout /t 3
+
+

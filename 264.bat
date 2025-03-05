@@ -1,0 +1,1 @@
+AFUWINx64.EXE /Aoa3.bin
